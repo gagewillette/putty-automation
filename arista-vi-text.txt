@@ -1,0 +1,6 @@
+"A"
+18 right arrows
+3 backspaces
+"15.10M"
+1 Escape
+:wq
