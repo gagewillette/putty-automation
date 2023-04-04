@@ -95,10 +95,10 @@ while True:
 t.sleep(sleeptime * 20)
 pyautogui.typewrite("admin")
 pyautogui.press("enter")
-t.sleep(sleeptime * 1000)
+t.sleep(240)
 pyautogui.typewrite("zerotouch disable")
 pyautogui.press("enter")
-t.sleep(30)
+t.sleep(120)
 while True:
     finalLoginLocation = pyautogui.locateCenterOnScreen("pictures/final-login.png", confidence=0.7)
     if finalLoginLocation == None:
